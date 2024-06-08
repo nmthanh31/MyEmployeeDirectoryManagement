@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "278777569093",
+    "project_id": "myemployeedirectorymanagement",
+    "storage_bucket": "myemployeedirectorymanagement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278777569093:android:65f59b742efb6fa9a8a82c",
+        "android_client_info": {
+          "package_name": "com.example.myemployeedirectorymanagement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyI_PEQ9mCliMgpUU2BGyoNg8hCUZev7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
