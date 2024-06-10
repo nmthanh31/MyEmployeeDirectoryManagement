@@ -8,8 +8,4 @@
         android:id="@+id/menuEmployee"
         android:icon="@drawable/ic_employee"
         android:title="Nhân viên" />
-    <item
-        android:id="@+id/menuSetting"
-        android:icon="@drawable/ic_setting"
-        android:title="Cài đặt"/>
 </menu>

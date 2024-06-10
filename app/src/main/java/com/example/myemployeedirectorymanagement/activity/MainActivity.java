@@ -15,9 +15,6 @@ import androidx.fragment.app.FragmentTransaction;
 import com.example.myemployeedirectorymanagement.R;
 import com.example.myemployeedirectorymanagement.fragment.DepartmentFragment;
 import com.example.myemployeedirectorymanagement.fragment.EmployeeFragment;
-import com.example.myemployeedirectorymanagement.fragment.SettingFragment;
-import com.google.android.material.bottomappbar.BottomAppBar;
-import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -50,10 +47,6 @@ public class MainActivity extends AppCompatActivity {
             }
             if (item.getItemId() == R.id.menuEmployee){
                 replaceFragment(new EmployeeFragment());
-                return true;
-            }
-            if (item.getItemId() == R.id.menuSetting){
-                replaceFragment(new SettingFragment());
                 return true;
             }
             return false;

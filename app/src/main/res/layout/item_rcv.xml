@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#00000000"
+    android:padding="10dp">
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imvLogo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_department"
+        android:background="@drawable/bg_button_add"
+        android:scaleType="fitXY"
+        app:shapeAppearanceOverlay="@style/circleBorder"
+        />
+    <TextView
+        android:id="@+id/tvDisplayName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Name"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        />
+</LinearLayout>

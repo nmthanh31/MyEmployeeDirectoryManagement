@@ -33,6 +33,7 @@
         android:padding="20dp"
         android:textColorHint="@color/white"
         app:layout_constraintTop_toTopOf="@+id/tvEmployee"
+        android:textColor="@color/white"
         />
 
     <androidx.recyclerview.widget.RecyclerView
